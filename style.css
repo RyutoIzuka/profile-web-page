@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    padding: 32px 0 64px;    
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text {
+    margin: 16px 0 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.content {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 16px;
+    background-color: #fff;
+}
+
+.heading-lv1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.heading-lv2 {
+    font-size: 24px;
+}
+
+.heading-lv3 {
+    font-size: 20px;
+}
+
+.heading-lv4 {
+    font-size: 18px;
+}
+
+.heading-lv5 {
+    font-size: 16px;
+}
+
+.heading-margin {
+    margin-top: 32px;
+}
+
+.profile-image {
+    margin: 16px 0 0;
+    text-align: center;
+}
+
+.profile-image img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
